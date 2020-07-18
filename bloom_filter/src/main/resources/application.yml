@@ -1,0 +1,11 @@
+##服务器基本配置
+server:
+  port: 8888
+  servlet:
+    context-path: /bloom/filter/
+spring:
+  redis:
+    host: 192.168.188.131
+    password: 123456
+    port: 6379
+    timeout: 3600
